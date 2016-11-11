@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSAManifest xmlns:secured_PSAManifest="https://www.secured-fp7.eu/ref/PSA_manifest/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.secured-fp7.eu/ref/PSA_manifest/ PSA_manifest.xsd ">
+  <general_info>
+    <PSA_ID>reduce_Bandwidth</PSA_ID>
+    <name>reduce_Bandwidth</name>
+    <description>description</description>
+    <web_site>web_site</web_site>
+    <version>version</version>
+    <vendor>vendor</vendor>
+    <author>author</author>
+    <EULA>EULA</EULA>
+    <licence>Freeware</licence>
+  </general_info>
+  <functionality>
+    <capability name="">
+      <access_control>
+        <traffic_filter>
+          <stateless>
+            <name>name</name>
+            <implementedBy>implementedBy</implementedBy>
+            <type>access control list</type>
+          </stateless>
+          <stateful>
+            <name>name</name>
+            <implementedBy>implementedBy</implementedBy>
+            <type>anti DDoS</type>
+          </stateful>
+          <application_filter>
+            <name>name</name>
+            <implementedBy>implementedBy</implementedBy>
+            <type>captive portal</type>
+          </application_filter>
+        </traffic_filter>
+        <network_access_restrictions>
+          <name>name</name>
+          <implementedBy>implementedBy</implementedBy>
+          <type>access limit by time</type>
+        </network_access_restrictions>
+      </access_control>
+      <malware>
+        <name>name</name>
+        <implementedBy>implementedBy</implementedBy>
+        <type>botnet detector</type>
+      </malware>
+      <privacy>
+        <name>name</name>
+        <implementedBy>implementedBy</implementedBy>
+        <type>traffic anonymizer</type>
+      </privacy>
+      <audit>
+        <name>name</name>
+        <implementedBy>implementedBy</implementedBy>
+        <type>traffic record</type>
+      </audit>
+      <network_and_monitoring>
+        <name>name</name>
+        <implementedBy>implementedBy</implementedBy>
+        <type>IDS fingerprint</type>
+      </network_and_monitoring>
+      <legal>
+        <name>name</name>
+        <implementedBy>implementedBy</implementedBy>
+        <type>VoIP</type>
+      </legal>
+      <forensics>
+        <name>name</name>
+        <implementedBy>implementedBy</implementedBy>
+        <type>parser</type>
+      </forensics>
+      <HSPL_capability>
+        <capability_list>Filtering_L4</capability_list>
+        <capability_list>Timing</capability_list>
+      </HSPL_capability>
+    </capability>
+    <M2L_translation_info>
+      <security_control>
+        <id>id</id>
+        <name>name</name>
+        <description>description</description>
+        <plugin>
+          <id>id</id>
+          <name>name</name>
+          <description>description</description>
+          <URL>URL</URL>
+          <command>command</command>
+        </plugin>
+        <configuration_file>configuration_file</configuration_file>
+      </security_control>
+    </M2L_translation_info>
+    <performance>
+      <network_throughput unit="Kbit/s">
+        <value>0</value>
+      </network_throughput>
+      <simultaneous_connections unit="conn/s">
+        <value>0</value>
+      </simultaneous_connections>
+      <max_numer_of_operations_rules>0</max_numer_of_operations_rules>
+      <max_numer_of_users>0</max_numer_of_users>
+    </performance>
+    <optimization_parameter cost="8.0" latency="9.0" rating="10.0"/>
+  </functionality>
+  <execution_model>
+    <infrastructure>
+      <hw_requirement>
+        <cpu_unit>0</cpu_unit>
+        <cpu_architecture>x86</cpu_architecture>
+        <cpu_family>cpu_family</cpu_family>
+        <RAM_size unit="MB">
+          <value>0</value>
+        </RAM_size>
+        <disk_size unit="MB">
+          <value>0</value>
+        </disk_size>
+        <bandwidth unit="Kbit/s">
+          <value>0</value>
+        </bandwidth>
+        <max_delay unit="ms">
+          <value>0</value>
+        </max_delay>
+      </hw_requirement>
+      <sw_requirement>
+        <OS_type>OS_type</OS_type>
+        <OS_version>OS_version</OS_version>
+        <OS_architecture>OS_architecture</OS_architecture>
+      </sw_requirement>
+    </infrastructure>
+    <security_availability/>
+    <mobility>
+      <migration_support>cold migration</migration_support>
+      <type>stateless</type>
+    </mobility>
+    <PSC_dependency/>
+    <additional_requirement/>
+  </execution_model>
+  <configuration>
+    <PSA_format>img</PSA_format>
+    <security_control_configuration>
+      <security_control_ID>security_control_ID</security_control_ID>
+      <configuration_file>configuration_file</configuration_file>
+      <executable>executable</executable>
+    </security_control_configuration>
+    <network_card_no>0</network_card_no>
+    <network_card_configuration>
+      <card_ID>card_ID</card_ID>
+      <MAC_address>MAC_address</MAC_address>
+      <IP_address>IP_address</IP_address>
+      <netmask>netmask</netmask>
+    </network_card_configuration>
+    <network_configuration>
+      <gateway_IP_address>gateway_IP_address</gateway_IP_address>
+      <DNS_IP_address>DNS_IP_address</DNS_IP_address>
+    </network_configuration>
+    <kernel_configuration/>
+  </configuration>
+  <monitoring>
+    <input_bandwidth unit="Kbit/s">
+      <value>0</value>
+    </input_bandwidth>
+    <output_bandwidth unit="Kbit/s">
+      <value>0</value>
+    </output_bandwidth>
+    <delay unit="ms">
+      <value>0</value>
+    </delay>
+  </monitoring>
+  <custom/>
+</PSAManifest>

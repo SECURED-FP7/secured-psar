@@ -1,0 +1,160 @@
+[
+	{
+		"model":"PSA.PSA",
+		"psa_id":"00",
+		"fields":{
+			"psa_id":"00",
+			"psa_name":"PSA de pruebas",
+			"psa_status":"0",
+			"psa_manifest_id":"10",
+			"psa_storage_id":"30",
+			"plugin_id":"20"
+		}
+	},
+	{
+                "model":"PSA.PSA",
+                "psa_id":"ipTables",
+                "fields":{
+                        "psa_id":"ipTables",
+                        "psa_name":"PSA de pruebas",
+                        "psa_status":"0",
+                        "psa_manifest_id":"10",
+                        "psa_storage_id":"30",
+                        "plugin_id":"20"
+                }
+        },
+	{
+                "model":"PSA.PSA",
+                "psa_id":"TrafficRcv",
+                "fields":{
+                        "psa_id":"TrafficRcv",
+                        "psa_name":"PSA de pruebas",
+                        "psa_status":"0",
+                        "psa_manifest_id":"10",
+                        "psa_storage_id":"30",
+                        "plugin_id":"20"
+                }
+        },
+	{
+                "model":"PSA.PSA",
+                "psa_id":"TrafficGen",
+                "fields":{
+                        "psa_id":"TrafficGen",
+                        "psa_name":"PSA de pruebas",
+                        "psa_status":"0",
+                        "psa_manifest_id":"10",
+                        "psa_storage_id":"30",
+                        "plugin_id":"20"
+                }
+        },
+	{
+		"model":"PSA.PSA",
+		"psa_id":"6789",
+		"fields":{
+			"psa_id":"6789",
+			"psa_name":"ipTraf2",
+			"psa_status":"0",
+			"psa_manifest_id":"13",
+			"psa_storage_id":"33",
+			"plugin_id":"23"
+		}
+	},
+
+        {
+                "model":"PSA.PSA",
+                "psa_id":"01",
+                "fields":{
+                        "psa_id":"01",
+                        "psa_name":"PSA de pruebas Dos",
+                        "psa_status":"0",
+                        "psa_manifest_id":"11",
+                        "psa_storage_id":"31",
+                        "plugin_id":"21"
+                }
+        },
+	{
+                "model":"PSA.PSA",
+                "psa_id":"02",
+                "fields":{
+                        "psa_id":"02",
+                        "psa_name":"PSA de pruebas Tres",
+                        "psa_status":"0",
+                        "psa_manifest_id":"12",
+                        "psa_storage_id":"32",
+                        "plugin_id":"22"
+                }
+        },	
+	{
+		"model":"PSA.PSA_manifest",
+		"psa_manifest_id":"10",
+		"fields":{
+			"psa_manifest_id":"10",
+			"name":"Prueba de PSA",
+			"general_info_id":"40",
+			"funcionality_id":"50",
+			"configuration_id":"70",
+			"execution_model_id":"60",
+			"monitoring_id":"810",
+			"custom_id":"820"
+		}
+	},
+	{
+                "model":"PSA.PSA_manifest",
+                "psa_manifest_id":"11",
+                "fields":{
+                        "psa_manifest_id":"11",
+                        "name":"Prueba de PSA Dos",
+                        "general_info_id":"41",
+                        "funcionality_id":"51",
+                        "configuration_id":"71",
+                        "execution_model_id":"61",
+                        "monitoring_id":"811",
+                        "custom_id":"821"
+                }
+        },
+	{
+                "model":"PSA.PSA_manifest",
+                "psa_manifest_id":"12",
+                "fields":{
+                        "psa_manifest_id":"12",
+                        "name":"Prueba de PSA Tres",
+                        "general_info_id":"42",
+                        "funcionality_id":"52",
+                        "configuration_id":"72",
+                        "execution_model_id":"62",
+                        "monitoring_id":"812",
+                        "custom_id":"822"
+                }
+        },
+
+	{
+		"model":"PSA.M2L_Plugin",
+		"plugin_id":"20",
+		"fields":{
+			"plugin_id":"20",
+			"name":"Plugin M2L de prueba",
+			"url":"http://www.plugins.plug"
+		}
+	},
+
+
+	{
+		"model":"PSA.PSA_storage",
+		"psa_storage_id":"30",
+		"fields":{
+			"psa_storage_id":"30",
+			"name":"Prueba de storage",
+			"psarl_id":"90",
+			"url":"http://www.storage.sto"
+		}
+	},
+	
+	{
+		"model":"PSA.PSAR_local",
+		"psarl_id":"90",
+		"fields":{
+			"psarl_id":"90",
+			"location":"En su casa"
+		}
+	}
+]

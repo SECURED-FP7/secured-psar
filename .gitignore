@@ -1,0 +1,7 @@
+*.py[cod]
+PSA/migrations/
+v1status/migrations/
+PSA/scriptsOld.py
+tests/scriptOld.py
+*.img
+*.crt
